@@ -38,10 +38,10 @@ The core pattern — **parallel control planes via Helm revisions, adopt-then-up
 ├── README.md                                    ← you are here
 ├── LICENSE
 ├── docs/
-│   ├── 01-architecture-and-strategy.md          ← why revision-based upgrades, architecture diagrams
-│   ├── 02-migration-walkthrough.md              ← step-by-step guide, references the scripts below
-│   ├── 03-troubleshooting.md                    ← failure signatures, best practices, sidecar vs ambient
-│   └── 04-faq.md                                ← FAQ, references, further reading
+│   ├── architecture-and-strategy.md          ← why revision-based upgrades, architecture diagrams
+│   ├── migration-walkthrough.md              ← step-by-step guide, references the scripts below
+│   ├── troubleshooting.md                    ← failure signatures, best practices, sidecar vs ambient
+│   └── faq.md                                ← FAQ, references, further reading
 ├── scripts/
 │   ├── 01-precheck.sh                           ← cluster compatibility check + Helm repo setup
 │   ├── 02-adopt-base-resources.sh               ← adopt istioctl-created RBAC/webhooks into Helm
