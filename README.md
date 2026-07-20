@@ -35,7 +35,7 @@ The core pattern — **parallel control planes via Helm revisions, adopt-then-up
 
 ```
 .
-├── README.md                                    ← you are here
+├── README.md
 ├── LICENSE
 ├── docs/
 │   ├── architecture-and-strategy.md          ← why revision-based upgrades, architecture diagrams
