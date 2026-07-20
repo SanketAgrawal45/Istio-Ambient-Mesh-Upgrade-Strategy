@@ -4,7 +4,7 @@
 
 ### A production-tested, zero-downtime upgrade from Istio 1.25 to 1.28
 
-<img src="assets/cover-square.pngcover-square.png" alt="Istio Ambient Mesh Upgrade — istioctl to Helm" width="320"/>
+<img src="assets/cover-square.png" alt="Istio Ambient Mesh Upgrade — istioctl to Helm" width="320"/>
 
 ![Istio](https://img.shields.io/badge/Istio-1.25%20→%201.28-blueviolet)
 ![Ambient Mesh](https://img.shields.io/badge/Mesh%20Mode-Ambient-green)
