@@ -47,7 +47,7 @@ Ambient mode's biggest architectural shift from sidecar mode is that **applicati
 
 ```mermaid
 flowchart TD
-    A[👤 Client] --> B[☁️ AWS ALB]
+    A[ Client] --> B[ AWS ALB]
     B --> C[" Istio Ingress Gateway"]
     C --> D[" Waypoint<br/>L7 policy · routing · auth"]
     D --> E[" ztunnel<br/>L4 mTLS · identity"]
